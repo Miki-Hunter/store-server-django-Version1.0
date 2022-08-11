@@ -12,28 +12,25 @@
 
 与之对应的后台管理项目 [前端项目 toAdmin1.0](https://github.com/Miki-Hunter/toAdmin-vue-store-1.0) 基于Vue3、element-Plus，正在学习和改进  
 
+本项目的API文档，未全部完成[API文档](https://github.com/Miki-Hunter/store-server-django-Version1.0/blob/main/storeAPI.md)  
 
-[原作者-后端](https://github.com/hai-27/store-server) 全部采用post方法实现。  
-[原作者-前端](https://github.com/hai-27/vue-store)   
+
+#### [原作者-后端](https://github.com/hai-27/store-server)  
+#### [原作者-前端](https://github.com/hai-27/vue-store)   
 
 ### 2、购物车模块、订单模块、收藏模块  都有登录校验
 
-### 3、使用drf时，前端写网址时最后加上一条斜杠  例如 "/api/product/getPromoProduct/"  ,否则可能无法访问  
-[原作者-前端](https://github.com/hai-27/vue-store) 
-
-### 4、关于 order_time 时间戳
+### 3、关于 order_time 时间戳
 
 	如 	"order_time": 1659522650709,  使用的是毫秒级时间戳
 		 "order_id": 11659522650709,  则是 user_id  +  order_time
 
-### 5、 [API文档](https://github.com/Miki-Hunter/store-server-django-Version1.0/blob/main/storeAPI.md) 
+### 4、添加了后台管理的功能，API接口尚未编写到文档内，可参考Django项目中url界面的注解
 
-### 6、添加了后台管理的功能，API接口尚未编写到文档内，可参考Django项目中url界面的注解
-
-### 7、添加激活校验，需要邮箱校验，返回一个激活链接(功能在用户注册部分)，此为本人验证工作，可根据需要引入
+### 5、添加激活校验，需要邮箱校验，返回一个激活链接(功能在用户注册部分)，此为本人验证工作，可根据需要引入
 
 
-### 8、 关于启动
+### 6、 关于启动
 
 1） 和一般的django项目没什么区别
 
